@@ -3,12 +3,16 @@
 DaakMail is a proposed cross-platform email client that aims to provide a good email and calendar experience.
 
 ## Prerequisites
-- Rust
+
+- [Nix Package Manager](https://nixos.org/download.html)
 - Nodejs (uses `.node-version`)
 
 ## Development
+
 Start local dev server
+
 ```
+nix-shell
 bun run tauri dev
 ```
 
